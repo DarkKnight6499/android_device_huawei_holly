@@ -31,6 +31,7 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_ARCH_VARIANT_CPU := cortex-a7
 TARGET_CPU_VARIANT:= cortex-a7
 TARGET_CPU_MEMCPY_OPT_DISABLE := true
+KERNEL_HAS_FINIT_MODULE := false
 
 # Enable dex-preoptimization
 WITH_DEXPREOPT := false
